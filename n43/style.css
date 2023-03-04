@@ -1,0 +1,21 @@
+.container{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.item{
+    margin: 10vw;
+    padding: 10vw;
+    background: #686868;
+}
+h1{
+    position: relative;
+}
+h1:before{
+    content: '';
+    position: absolute;
+    width: 15vw;
+    height: 5px;
+    background: linear-gradient(to right, #ff0000, #000dff);
+    top: -5px;
+}
