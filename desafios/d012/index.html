@@ -7,6 +7,13 @@
     <title>Cordel Morderno</title>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+        :root{
+            --font1: 'Alfa Slab One', cursive;
+            --font2: 'Dancing Script', cursive;
+        }
+
         * {
             padding: 0;
             margin: 0;
@@ -16,12 +23,16 @@
             background: black;
             color: white;
             text-align: center;
+            font-family: var(--font1);
         }
         header > h1 {
             padding-top: 50px;
+            font-size: 4.6vw;
+            
         }
         header > p {
             padding-bottom: 50px;
+            font-size: 1.6vw;
         }
 
         a {
@@ -39,8 +50,9 @@
         }
         section > p {
             margin-left: 10px;
-            font-size: 25px;
+            font-size: 3.5vw;
             font-style: italic;
+            font-family: var(--font2);
             letter-spacing: 2px;
             line-height: 40px;
         }
@@ -67,6 +79,7 @@
             color: white;
             text-align: center;
             padding: 10px 0;
+            font-size: 1.6vw;
         }
     </style>
 </head>
